@@ -1,23 +1,18 @@
-import logo from './michelleotero.jpg';
+
 import './App.css';
+import Home from "../src/Home";
+import Contact from "../src/Contact";
+import About from "../src/About";
+import Projects from "../src/Projects";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          I'm trying here.
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com/LadyEgg"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Check me out!
-        </a>
-      </header>
+     <Home />
+     <About />
+     <Projects />
+     <Contact />
+     
     </div>
   );
 }
