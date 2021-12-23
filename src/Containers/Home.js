@@ -5,15 +5,13 @@ import '../css/Home.css'
 function Home() {
     return(
     <div className="Home">
-        
-    
     <div className="Profile-border"></div>
-    
     <div className="Home-intro">
-        <h1> Welcome! </h1>
+        <div className="Welcome"><h1> Welcome! </h1></div>
         <div className="Home-pic"></div>
-        <h1> I'm Michelle Otero.</h1> 
+        <div className="Name"><h2> I'm Michelle Otero </h2></div>
     </div>
+    
     </div>
     )
 }
