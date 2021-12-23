@@ -1,0 +1,10 @@
+.NavBar {
+    display: flex;
+    justify-content: center;
+   padding: 5px;
+   
+}
+
+.Button {
+    color: yellow;
+}

@@ -1,8 +1,11 @@
 import React from 'react';
 import {Link} from 'react-router-dom'; 
+import '../css/NavBar.css'
 
 function NavBar(){
     return(
+        <div className='NavBar'>
+            <div className='Button'></div>
         <ul>
             <li>
                 <Link to="/"><button>Home</button></Link>
@@ -17,6 +20,7 @@ function NavBar(){
                 <Link to="/contact"><button>Contact</button></Link>
             </li>
         </ul>
+        </div>
     )
 }
 

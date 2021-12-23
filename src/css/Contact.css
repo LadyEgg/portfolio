@@ -1,0 +1,13 @@
+.Contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+    height: 20vh;
+    overflow: auto;
+    background: yellow;
+}

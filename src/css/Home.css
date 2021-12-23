@@ -1,0 +1,37 @@
+.Home {
+    justify-content: center;
+    display: flex;
+}
+.Home-intro {
+    display: flex;
+    font-size: calc(10px );
+    margin: 50px 50px 200px 0px;
+   
+}
+
+.Profile-border{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 0px 0px var(--white);
+    border-radius: 50%;
+    height: 100px;
+
+}
+.Home-pic {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 300px;
+   border-radius: 50%;
+    background-image: url("../images/Profile Image.jpg");
+    background-size: 300px;
+}
