@@ -1,4 +1,4 @@
-.NavBar {
+.navBar {
     position: absolute;
     background-color: rgb(104, 60, 24);
     top: 0;
@@ -17,12 +17,10 @@ li {
     display: inline;
   }
   
-.Button {
-    color: yellow;
-}
-button {
-    font-size: 20px;
-    color:rgb(104, 60, 24);
-    padding: 20px;
-
+.button {
+  color:rgb(211, 243, 204);
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  padding: 20px;
 }

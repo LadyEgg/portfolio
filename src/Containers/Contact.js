@@ -6,11 +6,11 @@ function Contact() {
     let navigate = useNavigate()
     return(
     <div >
-        <h1> Contact Me </h1>
-        
+        <div className='con'><h1> Contact Me </h1></div>
+       <div className='person'><p>michelle.otero0900@gmail.com </p></div>
         <form
         onSubmit={() => {
-            navigate('/Home')
+            navigate(<p> Hey! Your message sent! </p>)
         }} 
         >
             <p> Enter your Name.</p>

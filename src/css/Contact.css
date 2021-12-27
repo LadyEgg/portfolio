@@ -1,13 +1,15 @@
-.Contact {
+.con {
     display: flex;
-    flex-direction: column;
-    text-align: center;
-    overflow: hidden;
-    position: relative;
     justify-content: center;
     align-items: center;
-
-    height: 20vh;
-    overflow: auto;
-    background: yellow;
+    position: relative;
+    height: 30vh;
+    padding-right: 0px;
 }
+
+form{
+    
+    position: relative;
+    margin: 0px 0px 2vh 0vh;
+}
+

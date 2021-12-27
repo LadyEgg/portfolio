@@ -1,37 +1,29 @@
-.Home {
+.home {
      display: flex;
+     text-align: center;
      justify-content: center;
-    padding: 19px;
+    padding: 100px;
 }
-.Home-intro {
+.welcome {
     display: flex;
     font-size: calc(20px );
-    margin: 50px 50px 230px 0px;
-   
+    text-align: center;
 }
-.Name{
+.home-pic {
     display: flex;
-    font-size: calc(20px );
-    
-}
-.Welcome {
-    display: flex;
-    font-size: calc(20px );
-    
-}
-.Profile-border{
-    display: flex;
-    box-shadow: 0 5px 0px 0px var(--white);
-    border-radius: 50%;
-    height: 100px;
-
-}
-.Home-pic {
-    display: flex;
-    flex-direction: row;
     height: 400px;
     width: 300px;
     border-radius: 50%;
     background-image: url("../images/Profile Image.jpg");
     background-size: 300px;
+}
+.name{
+    display: flex;
+    font-size: calc(20px );
+    
+}
+.home-intro {
+    display: flex;
+    font-size: calc(20px );
+    padding-top: 50px;
 }

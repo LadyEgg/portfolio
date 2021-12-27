@@ -1,17 +1,15 @@
 import React from 'react'
+
 import '../css/Home.css'
 
 
 function Home() {
     return(
-    <div className="Home">
-    <div className="Profile-border"></div>
-    <div className="Home-intro">
-        <div className="Welcome"><h1> Welcome! </h1></div>
-        <div className="Home-pic"></div>
-        <div className="Name"><h2> I'm Michelle Otero </h2></div>
-    </div>
-    
+    <div className="home">
+    <div className="welcome"><h1> Welcome! </h1></div>
+    <div className="home-pic"></div>
+    <div className="name"><h2> I'm Michelle Otero </h2></div>
+    <div className="home-intro"></div>
     </div>
     )
 }

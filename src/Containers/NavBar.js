@@ -4,20 +4,19 @@ import '../css/NavBar.css'
 
 function NavBar(){
     return(
-        <div className='NavBar'>
-            
+        <div className='navBar'>  
         <ul>
             <li>
-                <Link to="/"><button>Home</button></Link>
+                <Link to="/">< button type="button" class="button">Home</button></Link>
             </li>
             <li>
-                <Link to="/about"><button>About</button></Link>
+                <Link to="/about">< button type="button" class="button">About</button></Link>
             </li>
             <li>
-                <Link to="/projects"><button>Projects</button></Link>
+                <Link to="/projects"><button type="button" class="button">Projects</button></Link>
             </li>
             <li>
-                <Link to="/contact"><button>Contact</button></Link>
+                <Link to="/contact"><button type="button" class="button">Contact</button></Link>
             </li>
         </ul>
         </div>

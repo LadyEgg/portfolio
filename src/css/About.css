@@ -1,15 +1,17 @@
-.About { 
+.about { 
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 68vh;
+    height: 40vh;
+    padding-right: 30px;
 }
-.Para {
+.para {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 50px;
-    height: 10vh;
-    z-index: 5;
- border: 1px solid green;
+    margin: 0px 0px 0px 85vh;
+    width: 300px;
+    background-color: rgb(211, 243, 204);
+    border: solid 2px rgb(104, 60, 24);
+}
+.link {
+    padding: 5vh;
 }
