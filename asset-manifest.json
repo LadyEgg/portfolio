@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/LadyEgg/portfolio.git/static/css/main.3284b299.css",
-    "main.js": "/LadyEgg/portfolio.git/static/js/main.74001cb0.js",
-    "static/js/787.fec03637.chunk.js": "/LadyEgg/portfolio.git/static/js/787.fec03637.chunk.js",
-    "static/media/Profile Image.jpg": "/LadyEgg/portfolio.git/static/media/Profile Image.bc6e9bed112ee482c6f5.jpg",
-    "static/media/Eliza.jpg": "/LadyEgg/portfolio.git/static/media/Eliza.debb1da7c50f14017d93.jpg",
-    "static/media/Minesweeper.jpg": "/LadyEgg/portfolio.git/static/media/Minesweeper.c23db297fa01542ea108.jpg",
-    "index.html": "/LadyEgg/portfolio.git/index.html",
-    "main.3284b299.css.map": "/LadyEgg/portfolio.git/static/css/main.3284b299.css.map",
-    "main.74001cb0.js.map": "/LadyEgg/portfolio.git/static/js/main.74001cb0.js.map",
-    "787.fec03637.chunk.js.map": "/LadyEgg/portfolio.git/static/js/787.fec03637.chunk.js.map"
+    "main.css": "/LadyEgg/portfolio/static/css/main.a6ca9329.css",
+    "main.js": "/LadyEgg/portfolio/static/js/main.3321426f.js",
+    "static/js/787.fec03637.chunk.js": "/LadyEgg/portfolio/static/js/787.fec03637.chunk.js",
+    "static/media/Profile Image.jpg": "/LadyEgg/portfolio/static/media/Profile Image.bc6e9bed112ee482c6f5.jpg",
+    "static/media/Eliza.jpg": "/LadyEgg/portfolio/static/media/Eliza.debb1da7c50f14017d93.jpg",
+    "static/media/Minesweeper.jpg": "/LadyEgg/portfolio/static/media/Minesweeper.c23db297fa01542ea108.jpg",
+    "index.html": "/LadyEgg/portfolio/index.html",
+    "main.a6ca9329.css.map": "/LadyEgg/portfolio/static/css/main.a6ca9329.css.map",
+    "main.3321426f.js.map": "/LadyEgg/portfolio/static/js/main.3321426f.js.map",
+    "787.fec03637.chunk.js.map": "/LadyEgg/portfolio/static/js/787.fec03637.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3284b299.css",
-    "static/js/main.74001cb0.js"
+    "static/css/main.a6ca9329.css",
+    "static/js/main.3321426f.js"
   ]
 }
