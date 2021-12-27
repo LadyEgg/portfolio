@@ -1,24 +1,29 @@
-import logo from './michelleotero.jpg';
+import React from "react";
 import './App.css';
+import Home from "./Containers/Home";
+import Contact from "./Containers/Contact";
+import About from "./Containers/About";
+import Projects from "./Containers/Projects";
+import { Routes, Route } from "react-router-dom";
+import NavBar from "./Containers/NavBar";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          I'm trying here.
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com/LadyEgg"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Check me out!
-        </a>
-      </header>
+      <div className="App-header">
+        <NavBar />
+      </div>
+      <div className="App-footer"></div>
+      
+      <Routes>
+     <Route path="/" element={<Home />} />
+     <Route path="/about" element={<About />} />
+     <Route path="/projects" element={<Projects />} />
+     <Route path="/contact" element={<Contact />} />
+     </Routes>
     </div>
+      
   );
 }
 

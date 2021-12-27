@@ -1,0 +1,26 @@
+.navBar {
+    position: absolute;
+    background-color: rgb(104, 60, 24);
+    top: 0;
+    text-align: center;
+    width: 100vw;
+    height: 6vh;
+   
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(104, 60, 24);
+  }
+  
+li {
+    display: inline;
+  }
+  
+.button {
+  color:rgb(211, 243, 204);
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  padding: 20px;
+}

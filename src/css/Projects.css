@@ -1,0 +1,32 @@
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    padding-right: 30px;
+}
+.eliza-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    height: 200px;
+    width: 400px;
+    background-image: url("../images/Eliza.jpg");
+    background-size: 300px;
+}
+
+.mine-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    height: 200px;
+    width: 400px;
+    background-image: url("../images/Minesweeper.jpg");
+    background-size: 300px;
+}
+
+.mine-description {
+padding-bottom: 50px;
+}

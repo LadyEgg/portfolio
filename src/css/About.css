@@ -1,0 +1,17 @@
+.about { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    padding-right: 30px;
+}
+.para {
+    display: flex;
+    margin: 0px 0px 0px 85vh;
+    width: 300px;
+    background-color: rgb(211, 243, 204);
+    border: solid 2px rgb(104, 60, 24);
+}
+.link {
+    padding: 5vh;
+}

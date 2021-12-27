@@ -1,0 +1,15 @@
+.con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 30vh;
+    padding-right: 0px;
+}
+
+form{
+    
+    position: relative;
+    margin: 0px 0px 2vh 0vh;
+}
+

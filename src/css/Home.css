@@ -1,0 +1,29 @@
+.home {
+     display: flex;
+     text-align: center;
+     justify-content: center;
+    padding: 100px;
+}
+.welcome {
+    display: flex;
+    font-size: calc(20px );
+    text-align: center;
+}
+.home-pic {
+    display: flex;
+    height: 400px;
+    width: 300px;
+    border-radius: 50%;
+    background-image: url("../images/Profile Image.jpg");
+    background-size: 300px;
+}
+.name{
+    display: flex;
+    font-size: calc(20px );
+    
+}
+.home-intro {
+    display: flex;
+    font-size: calc(20px );
+    padding-top: 50px;
+}
